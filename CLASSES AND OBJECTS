@@ -1,4 +1,4 @@
-CLASS - The building block in c++ that leads to obect oriented programming, is a class.
+CLASS - The building block in c++ that leads to object oriented programming, is a class.
       - User defined data type that hold its own data members and member functions,which can be accessed by creating an instance of
         the class.Data members are the data variables and member functions are the functions used to manipulate these variables and
         together these data members and member functions define the properties and behaviour of the objects in a Class.

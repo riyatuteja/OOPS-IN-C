@@ -1,5 +1,6 @@
 -WHY OOPS?
- Till now we have been using Procedural Programming : list of instructions in a single block.(which makes it suitable only for small programs)
+ Till now we have been using Procedural Programming : list of instructions in a single block.(which makes it suitable only
+ for small programs)
  
       PROCEDURAL 
    #include<iostream>
@@ -15,7 +16,7 @@
 
  
  Solution to this problem was Modular Programming : A procedural program divided into functions and each function has clear purpose.
- MODULAR
+        MODULAR
    #include<iostream>
    void main()
    {

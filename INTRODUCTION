@@ -1,0 +1,37 @@
+-WHY OOPS?
+ Till now we have been using Procedural Programming : list of instructions in a single block.(which makes it suitable only for small programs)
+ 
+      PROCEDURAL 
+   #include<iostream>
+   void main()
+   { ...
+   variables;
+   func1();
+   ...
+   func2();
+   ...
+   }
+ PROBLEM-As the need of the customer increases . we require number of sub problems to be used more than once.
+
+ 
+ Solution to this problem was Modular Programming : A procedural program divided into functions and each function has clear purpose.
+ MODULAR
+   #include<iostream>
+   void main()
+   {
+   ...
+   func1();
+   ...
+   func2();
+   ...
+   }  
+   void func1(){...}
+   void func2(){...}
+   
+   PROBLEM:" data remains alive within module so we need some data to be global."
+           " difficult to conceptualize and modify"
+           
+   Solution to this problem was Object Oriented Programming : Root cause was data and functions are separate from each other.
+   OOP'S bind data and functions together.
+                                  
+      

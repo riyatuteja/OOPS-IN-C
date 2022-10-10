@@ -1,0 +1,19 @@
+ENCAPSULATION: -wrapping up the data and methods to the class that manipulates them.
+               -used to make sure that the private data remains hidden from user.
+                For modification or to read one can use get method and set method.
+                BENEFITS:You (or others) can change one part of the code without
+                          affecting other parts
+                          Increased security of data
+
+Get:get are public functions used to get private data members in the
+        class.
+        string get_private-member-name()
+        {
+            return name;
+        }
+Set:Set are public functions used to set private data members in the class.
+        void set_private-member-name(pass parameter)
+        {
+             name=parameter;
+        }
+        

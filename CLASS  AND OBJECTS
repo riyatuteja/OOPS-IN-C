@@ -1,0 +1,46 @@
+CLASS : -The building block of c++ that leads to object oriented programming.
+       -A class is a user defined data type, which holds its own data members and member functions,
+        which can be accessed when an instance of a class is created.
+       -A class is a blueprint for an object.
+       -Data members are the data variables and member functions are the functions used to 
+        manipulate the  variables , together these data variables and member functions define
+        the properties and behaviour of an object of class.
+
+        // class declaration
+         class class_name
+         {
+            //data members
+            // member functions
+         };
+         SUB-CLASSES :  class derived from public base class.
+         class sub-class_name : public class_name
+         {
+            
+         }
+OBJECT : -Instance of a class with similar properties and behaviour.
+         -when a class is created no memory is allocated but when it is instanciated (i.e an object
+         is created)the memory is allocated    
+
+         int main()
+         {
+            // create an object
+            class_name object_name;
+         } 
+
+ACCESS MODIFIERS IN CLASS 
+-used to implement an important aspect of oops called data hiding.
+-assign the accessibility to the class members i.e set some restrictions ont the 
+class member so that they can not directly be accessed by the outside function.
+
+TYPES
+
+PUBLIC: available for everyone (other classes and functions ,anywhere in the program 
+        using member accesss operator(.)with obejct of the class)
+
+PRIVATE: only accessed by the member function of its own class or the friend 
+         function.
+
+PROTECTED: similar to private but can be access outside the class using 
+           friends function and sub classes
+
+

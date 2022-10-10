@@ -1,0 +1,23 @@
+POLYMORPHISM: -poly->many
+               morphism->forms
+              -if one thing exist in more than one form that is called POLYMORPHISM.
+              -helps in reducing complexity and length of code
+
+              POLYMORPHISM: compile time          runtime
+                            1.operator           1.virtual 
+                            overloading           function
+                            
+                            2.function 
+                            overloading
+
+1.OPERATOR OVERLOADING- In a complex class of two numbers you have to overload     
+                        operator to add two complex number and have to define
+                        the functionality.
+
+2.FUNCTION OVERLOADING- when there are different functions with same names but 
+                        but different type or number of arguments.  
+
+VIRTUAL FUNCTION- when we have same function in base and derived class .
+                  To avoid confusion while compiling we add virtual keyword to the 
+                  base class function.
+                - the function with virtual keyword can not be called.                                              

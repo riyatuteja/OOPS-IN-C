@@ -1,0 +1,45 @@
+CONSTRUCTOR - special method that is invoked automatically when an object is created.
+            - used to initialize the data used members of new objects automatically.
+            - do not have a return type
+            - can be defined both inside or outside the class
+syntax: // inside
+        <class_name>(list_of_parameters)
+        {
+           //constructor definition 
+        }
+        // outside
+        <class_name>: :<class_name>(list_of_parameters)
+        {
+           //constructor definition 
+        }
+constructor overloading - two or more constructor of the same class with different list
+                          of arguments
+ TYPES:
+ 1.DEFAULT: -does not take any arguments
+            -invokes automatically when the object is created
+            -no parameters,ZERO ARGUMENT CONSTRUCTOR
+            SYNTAX- class_name(){//definition}
+ 2.PARAMETERIZED: -can pass arguments
+                  -help to initialize the object when it is created
+                  SYNTAX- class_name(list_of_parameters){//definition}
+ 3:COPY: -member function that initialize  an obejct using the another obejct
+          from the same class    
+         -SHALLOW COPY: the copied object points to the same address, means when
+                        you make changes in the copy it changes the main copy also 
+         -DEEP COPY:the copied object points to the different address  ,means when
+                        you make changes in the copy it does not changes the main 
+                        copy 
+          SYNTAX: class_name(const class_name old_object)
+      
+       OPERATOR OVERLOADING -We can overload operators( == , + , - ,etc), 
+                             to work on class objects.
+                           bool operator == (student &a){
+                              if (roll_no==a.roll_no && gender==a.gender)
+                              {
+                                    return true;
+                              }
+                              else{
+                                    return false;
+                              }  
+                             the above code snippet, we can compare two class objects using ==.
+Example: Student object a,b, we can compare from a == b.                                              

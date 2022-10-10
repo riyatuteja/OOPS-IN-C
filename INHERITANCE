@@ -1,0 +1,25 @@
+INHERITANCE- derived class can inherit attribures from the base class 
+           DERIVED CLASS-that inherit from other class
+           BASE CLASS- the class being inherited
+           - only protected and public part is inherited
+
+           TYPES OF INHERITANCE
+1.SINGLE INHERITANCE-   CLASS A <- CLASS B
+2.MULTIPLE INHERITANCE- CLASS A CLASS B
+                            \    /
+                             \  /
+                            CLASS C
+3. MULTILEVEL INHERITANCE- CLASS A<-CLASS B<-CLASS C 
+4. HYBRID INHERITANCE- CLASS A->CLASS B
+                        \
+                        CLASS C<-CLASS D
+5. HEIRARCHICAL INHERITANCE-  CLASS A CLASS B CLASS J CLASS K
+                                 \    /       /       /
+                                  \  /       /       /
+                                 CLASS C  CLASS D CLASSI
+                                     \    /       /
+                                      \  /       /
+                                     CLASS E CLASS F
+                                        \    /     
+                                         \  /
+                                         CLASS G
